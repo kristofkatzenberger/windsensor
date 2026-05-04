@@ -1,0 +1,7909 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "436afb44-9304-4901-845d-b099a5f07b7a")
+	(paper "A4")
+	(title_block
+		(title "Pressure Sensors")
+		(date "2025-10-20")
+		(rev "1.0")
+		(company "FH Technikum Wien")
+		(comment 1 "Kristof Katzenberger")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "windsensor:DPS368"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U?"
+				(at 0 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DPS368"
+				(at 0 -22.225 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital Barometric Pressure Sensor for Portable Devices"
+				(at 12.7 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DPS368_1_0"
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -5.08 -7.62 0)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -5.08 -12.7 0)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at -5.08 -17.78 0)
+					(length 5.08)
+					(name "CSB_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -7.62 180)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -15.24 180)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 27.94 -17.78 180)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DPS368_1_1"
+				(rectangle
+					(start 0 0)
+					(end 22.86 -20.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 13.97 15.24)
+		(end 95.25 97.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0dbecd57-6f23-4df3-8875-55b8cc3147cd)
+	)
+	(rectangle
+		(start 96.52 15.24)
+		(end 190.5 97.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4e327de4-f554-465e-8c31-2dc0b6435890)
+	)
+	(rectangle
+		(start 13.97 99.06)
+		(end 95.25 181.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6d325ec9-4d2f-4319-ba76-4c8b8ee00c2b)
+	)
+	(rectangle
+		(start 96.52 99.06)
+		(end 190.5 138.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9f88f435-ece5-48f7-9785-6ab0f7f447d6)
+	)
+	(rectangle
+		(start 191.77 15.24)
+		(end 279.4 97.79)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c76f272e-3c95-44bf-a829-298cfa0d1650)
+	)
+	(text "I2C3"
+		(exclude_from_sim no)
+		(at 91.186 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c336e47-c623-4f27-9593-e638237edd0a")
+	)
+	(text "I2C2"
+		(exclude_from_sim no)
+		(at 274.828 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "50349998-8471-4e43-a8bc-bcf07234b8b5")
+	)
+	(text "I2C4"
+		(exclude_from_sim no)
+		(at 186.944 136.652 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d4ba40d-976a-4fda-8244-eac5d361989e")
+	)
+	(text "I2C1"
+		(exclude_from_sim no)
+		(at 185.928 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "89305fbe-e326-4647-be95-457da8267f6d")
+	)
+	(text "I2C0"
+		(exclude_from_sim no)
+		(at 91.186 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a4e1ec83-824c-4fca-ac14-f152dc1600d4")
+	)
+	(junction
+		(at 71.12 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "000af489-3e60-41e5-b940-a826248152f7")
+	)
+	(junction
+		(at 71.12 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e2edefc-dd50-42e0-851e-7ac3527b2395")
+	)
+	(junction
+		(at 247.65 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "214db8c5-24f1-4ccd-a5ef-7bb163e8e8b2")
+	)
+	(junction
+		(at 160.02 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a846399-31c9-4e9a-b66a-3e9367a65517")
+	)
+	(junction
+		(at 247.65 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3694943c-8ee4-49e6-85e9-875bc7f25495")
+	)
+	(junction
+		(at 71.12 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d93197e-d1d0-4a23-8767-7c524981278f")
+	)
+	(junction
+		(at 248.92 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44cf821d-bc90-40de-b3f7-23c73dcfe8ff")
+	)
+	(junction
+		(at 71.12 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57bff703-7fb2-4540-8837-f0dca9231344")
+	)
+	(junction
+		(at 160.02 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b23b7c9-3df6-4b29-8f6c-9a2cf13b8e4d")
+	)
+	(junction
+		(at 160.02 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61e73fd7-bdce-406a-a0eb-9a2f30b054d8")
+	)
+	(junction
+		(at 69.85 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62fe1ec4-7a2d-40ff-9a57-b1218d8a3896")
+	)
+	(junction
+		(at 160.02 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "679636aa-5ece-4e43-b949-b3b0a210e7af")
+	)
+	(junction
+		(at 158.75 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69d99eee-e0be-492a-affb-58d2968b5cda")
+	)
+	(junction
+		(at 158.75 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7da412fd-4a2c-4b46-aa22-dbd053bb3b35")
+	)
+	(junction
+		(at 158.75 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "997f2ba8-eaae-4f8a-b26c-55d938f538e9")
+	)
+	(junction
+		(at 71.12 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1f32c72-817a-48b2-b89d-70b1f577c5d8")
+	)
+	(junction
+		(at 248.92 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7a03327-531e-4221-b079-2acdcaff5bb0")
+	)
+	(junction
+		(at 160.02 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad0c8b8e-e295-4e6b-b707-52707ff341a2")
+	)
+	(junction
+		(at 71.12 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbebc9c3-df6c-453e-bc92-ebb05287ee5d")
+	)
+	(junction
+		(at 69.85 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1f3ef43-0e5d-42c4-8c24-e644f2ba5e83")
+	)
+	(junction
+		(at 69.85 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfae7fa9-3aeb-4f08-b1df-2a3c6c2c4603")
+	)
+	(junction
+		(at 248.92 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dac87f1f-439d-4424-a68a-1de56d442189")
+	)
+	(junction
+		(at 71.12 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecf94bb6-3a9b-423e-ad23-671d01d29ac9")
+	)
+	(junction
+		(at 69.85 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f124e96f-2b1c-44dd-a1ff-aa86e7708b77")
+	)
+	(junction
+		(at 71.12 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f29a53ae-db07-4381-8bb0-b52c0eadf917")
+	)
+	(junction
+		(at 248.92 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4c8f87a-e2e1-423c-816b-b8545c4d13ec")
+	)
+	(junction
+		(at 160.02 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f81deab6-814c-45ac-a318-6f13c340985d")
+	)
+	(no_connect
+		(at 209.55 39.37)
+		(uuid "12a745a5-e516-4b21-ab79-fa6a19fe4256")
+	)
+	(no_connect
+		(at 120.65 121.92)
+		(uuid "194b0ce0-b979-4800-9f8d-c59d91d691e5")
+	)
+	(no_connect
+		(at 31.75 80.01)
+		(uuid "5703b010-6e88-4e00-b1e8-01898fe08007")
+	)
+	(no_connect
+		(at 120.65 44.45)
+		(uuid "764b98b8-b60e-44c2-9cef-c95fb8ed0fb9")
+	)
+	(no_connect
+		(at 31.75 39.37)
+		(uuid "8954221c-90a4-43e5-82ba-9d5839782335")
+	)
+	(no_connect
+		(at 209.55 44.45)
+		(uuid "8caea049-a5fd-4ec1-979e-55fbe31c5317")
+	)
+	(no_connect
+		(at 31.75 163.83)
+		(uuid "9db6faa5-7f9a-41ad-a35d-6611ff7faa78")
+	)
+	(no_connect
+		(at 31.75 123.19)
+		(uuid "9e50cfc8-e666-4fe4-91d4-c1f50faec63e")
+	)
+	(no_connect
+		(at 209.55 80.01)
+		(uuid "a23e88b9-47cc-4ecc-b964-fb7c287f78ad")
+	)
+	(no_connect
+		(at 120.65 39.37)
+		(uuid "a6868346-1f10-4545-8284-f11aa477a6ff")
+	)
+	(no_connect
+		(at 120.65 127)
+		(uuid "aee315dd-aa32-476e-abd6-87fe504599d4")
+	)
+	(no_connect
+		(at 31.75 128.27)
+		(uuid "cc8f5431-a65e-4cf3-8ea6-023df7f34c93")
+	)
+	(no_connect
+		(at 31.75 44.45)
+		(uuid "f01d91b8-c79c-404b-993b-2b465e678e43")
+	)
+	(no_connect
+		(at 120.65 80.01)
+		(uuid "f478caa5-cb9e-4af6-bae9-7bf5b5dadf94")
+	)
+	(wire
+		(pts
+			(xy 153.67 124.46) (xy 158.75 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b0da1b-9300-4f9f-b5ff-82821738bb3a")
+	)
+	(wire
+		(pts
+			(xy 160.02 116.84) (xy 160.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026fcb94-92f7-418b-b41e-3f71e89e8f10")
+	)
+	(wire
+		(pts
+			(xy 242.57 34.29) (xy 248.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bcee6a-2752-463d-a2dc-1c73f885ed6b")
+	)
+	(wire
+		(pts
+			(xy 209.55 74.93) (xy 199.39 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "068b440c-0a24-4c86-9e1a-219ba9f2f270")
+	)
+	(wire
+		(pts
+			(xy 153.67 41.91) (xy 158.75 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08bca296-aa31-4b99-b78a-369abf295454")
+	)
+	(wire
+		(pts
+			(xy 175.26 72.39) (xy 175.26 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a83f538-babb-462a-a5da-4bb8d8f62d86")
+	)
+	(wire
+		(pts
+			(xy 21.59 168.91) (xy 21.59 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bb7436e-7abc-450e-a9e2-539c536d90c8")
+	)
+	(wire
+		(pts
+			(xy 71.12 148.59) (xy 74.93 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb948e3-90ea-4c6b-baa2-3e635d5c7d3d")
+	)
+	(wire
+		(pts
+			(xy 264.16 36.83) (xy 264.16 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d5eef15-9c0c-4dac-8d0e-e98109601336")
+	)
+	(wire
+		(pts
+			(xy 208.28 64.77) (xy 209.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e52de5e-0ff4-4e41-a376-97c2fd3aea40")
+	)
+	(wire
+		(pts
+			(xy 31.75 158.75) (xy 21.59 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea734f6-48c2-4908-9c4c-f24471b14fb1")
+	)
+	(wire
+		(pts
+			(xy 30.48 29.21) (xy 31.75 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103df1f8-f5cb-4b45-8aff-3224d15d9ab0")
+	)
+	(wire
+		(pts
+			(xy 158.75 45.72) (xy 158.75 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115a0fb7-9ab3-4256-823e-e4524bbde81b")
+	)
+	(wire
+		(pts
+			(xy 160.02 111.76) (xy 163.83 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c33056-6808-4f6e-8b20-8c4689590b64")
+	)
+	(wire
+		(pts
+			(xy 21.59 85.09) (xy 21.59 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e96075-740b-432e-8bba-0d4f3b7eec8c")
+	)
+	(wire
+		(pts
+			(xy 30.48 118.11) (xy 31.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174a37f5-581a-4fbf-a77b-6542008f9a62")
+	)
+	(wire
+		(pts
+			(xy 175.26 36.83) (xy 175.26 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17adbcb1-a223-4bbc-ace9-9886b2fe9e7e")
+	)
+	(wire
+		(pts
+			(xy 82.55 64.77) (xy 90.17 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1826f0a2-bb46-415b-b2f0-e76ec6fc3533")
+	)
+	(wire
+		(pts
+			(xy 71.12 69.85) (xy 71.12 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1976cc81-73b8-4285-83d5-b9c449dab50e")
+	)
+	(wire
+		(pts
+			(xy 160.02 26.67) (xy 160.02 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab9fbc8-35dc-42b3-9bbd-71cead0e46b1")
+	)
+	(wire
+		(pts
+			(xy 71.12 62.23) (xy 71.12 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c32fb47-c554-452f-b0f1-afdae0a67153")
+	)
+	(wire
+		(pts
+			(xy 64.77 64.77) (xy 71.12 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c43d508-f585-4740-89b0-af4781d6421d")
+	)
+	(wire
+		(pts
+			(xy 64.77 161.29) (xy 69.85 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f615583-f63f-46ed-abfb-61d5dda344c8")
+	)
+	(wire
+		(pts
+			(xy 264.16 34.29) (xy 260.35 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212f31d3-685d-4db6-851a-a238d95f2334")
+	)
+	(wire
+		(pts
+			(xy 260.35 29.21) (xy 267.97 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a6c66c-df70-4635-84fb-05ecc40788b5")
+	)
+	(wire
+		(pts
+			(xy 242.57 64.77) (xy 248.92 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "240165e9-1f47-4c9d-a3b9-bb19924a433f")
+	)
+	(wire
+		(pts
+			(xy 64.77 163.83) (xy 69.85 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2410f24d-3bbf-4877-b0bc-5af5af3801a0")
+	)
+	(wire
+		(pts
+			(xy 64.77 125.73) (xy 69.85 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "278d530f-5b11-4f1b-85c7-c7c1cd60a5e5")
+	)
+	(wire
+		(pts
+			(xy 69.85 45.72) (xy 69.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b419d79-ec65-4d32-a8fd-2027df51c608")
+	)
+	(wire
+		(pts
+			(xy 248.92 69.85) (xy 252.73 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c324093-916a-4f4e-8aa0-d2da3a40cf31")
+	)
+	(wire
+		(pts
+			(xy 175.26 119.38) (xy 175.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc16dca-e245-402a-b24c-afc6cf7fb192")
+	)
+	(wire
+		(pts
+			(xy 160.02 69.85) (xy 160.02 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df4df78-5cee-46f4-9e5b-a326b5bf43c2")
+	)
+	(wire
+		(pts
+			(xy 82.55 113.03) (xy 90.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ee1bb28-b363-4057-9f83-6d3efd7b95ae")
+	)
+	(wire
+		(pts
+			(xy 82.55 148.59) (xy 90.17 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3345ff2d-80f0-4544-8214-af33b7825b04")
+	)
+	(wire
+		(pts
+			(xy 119.38 69.85) (xy 120.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33569c93-4120-4d0a-8367-6e7d65eabfd6")
+	)
+	(wire
+		(pts
+			(xy 175.26 69.85) (xy 171.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33aded72-3300-4d30-a2a1-59ef7a2c1aa4")
+	)
+	(wire
+		(pts
+			(xy 69.85 161.29) (xy 69.85 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "343830a3-cae7-4b80-9bca-30de936829ef")
+	)
+	(wire
+		(pts
+			(xy 264.16 72.39) (xy 264.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3558dbb6-d4c2-46f7-9630-2fea0febe266")
+	)
+	(wire
+		(pts
+			(xy 158.75 128.27) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360d0d2f-64b5-4929-841c-46c810750424")
+	)
+	(wire
+		(pts
+			(xy 248.92 69.85) (xy 248.92 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e1a85f-a8d0-4ed4-b542-c01ade9f014d")
+	)
+	(wire
+		(pts
+			(xy 264.16 69.85) (xy 260.35 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c305a43-60b8-4f37-bcf4-b825b27c65aa")
+	)
+	(wire
+		(pts
+			(xy 160.02 64.77) (xy 163.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c802421-b28d-49a8-a4a3-cb9e9fe22e22")
+	)
+	(wire
+		(pts
+			(xy 30.48 148.59) (xy 31.75 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4016cca3-edd6-4193-98e3-f26a5c0bf405")
+	)
+	(wire
+		(pts
+			(xy 71.12 146.05) (xy 71.12 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4030787f-8f50-4095-8ee4-6512c27f4cd6")
+	)
+	(wire
+		(pts
+			(xy 242.57 29.21) (xy 248.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4112b342-ea4e-499f-9f9c-765ae3783fea")
+	)
+	(wire
+		(pts
+			(xy 248.92 29.21) (xy 252.73 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "419d36ce-28d8-44f7-a441-3dc9c1a02604")
+	)
+	(wire
+		(pts
+			(xy 71.12 113.03) (xy 74.93 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4408b4c3-77ef-4365-b7ba-ddcfbbfd6729")
+	)
+	(wire
+		(pts
+			(xy 69.85 77.47) (xy 69.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e5fcf9-0332-4bc7-bc60-3bcdd8c9c23e")
+	)
+	(wire
+		(pts
+			(xy 64.77 80.01) (xy 69.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489e4cd8-abbd-46b6-be89-41505c151bfa")
+	)
+	(wire
+		(pts
+			(xy 21.59 74.93) (xy 21.59 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4522df-6c76-4f12-ad4c-bf6583b328ff")
+	)
+	(wire
+		(pts
+			(xy 86.36 72.39) (xy 86.36 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca8a636-2b65-4d35-a73a-0ad362d35c63")
+	)
+	(wire
+		(pts
+			(xy 30.48 64.77) (xy 31.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ec1d7c8-f824-4121-98c4-a83dadabf936")
+	)
+	(wire
+		(pts
+			(xy 69.85 81.28) (xy 69.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee34bdf-d17a-4be6-a45b-fab3761a494d")
+	)
+	(wire
+		(pts
+			(xy 119.38 64.77) (xy 120.65 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f648c3d-b8a7-4255-b8e1-f52a6880926d")
+	)
+	(wire
+		(pts
+			(xy 153.67 80.01) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc44a77-e876-46a3-b9db-d07c1879a112")
+	)
+	(wire
+		(pts
+			(xy 199.39 74.93) (xy 199.39 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5135d2db-70c6-4c3e-b226-a27c7b3d659a")
+	)
+	(wire
+		(pts
+			(xy 160.02 34.29) (xy 163.83 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52812c63-3951-4790-bc43-d28c0d532a3f")
+	)
+	(wire
+		(pts
+			(xy 179.07 64.77) (xy 179.07 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5344b910-d02d-4896-82b9-fa62547fc26e")
+	)
+	(wire
+		(pts
+			(xy 86.36 153.67) (xy 82.55 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d64ff1-e830-4874-b6b5-d57291d3d21c")
+	)
+	(wire
+		(pts
+			(xy 21.59 158.75) (xy 21.59 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f900ce-6050-46e4-b980-e22f087b0ff3")
+	)
+	(wire
+		(pts
+			(xy 69.85 125.73) (xy 69.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d666e8-34c4-4773-9eb1-f3c19fd197db")
+	)
+	(wire
+		(pts
+			(xy 260.35 64.77) (xy 267.97 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596f816e-f7c2-412a-b5a1-def2732d6355")
+	)
+	(wire
+		(pts
+			(xy 175.26 116.84) (xy 171.45 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fba3fa-9d9a-4c68-b0da-56fb50786638")
+	)
+	(wire
+		(pts
+			(xy 86.36 120.65) (xy 86.36 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9f1996-ca64-430d-b8c4-52b5c3c99661")
+	)
+	(wire
+		(pts
+			(xy 153.67 64.77) (xy 160.02 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dae996b-8f66-4c97-ac18-7363efdd3566")
+	)
+	(wire
+		(pts
+			(xy 171.45 111.76) (xy 179.07 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dbff697-bea0-4362-85d4-5554ecdfad0f")
+	)
+	(wire
+		(pts
+			(xy 242.57 44.45) (xy 247.65 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6013b57c-8eba-44a4-93cd-8cdffce4eae3")
+	)
+	(wire
+		(pts
+			(xy 267.97 64.77) (xy 267.97 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684584fe-8d0c-4beb-ab8d-23e354b391e3")
+	)
+	(wire
+		(pts
+			(xy 86.36 34.29) (xy 82.55 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ffd678-f197-4c34-9271-8987860e70a5")
+	)
+	(wire
+		(pts
+			(xy 160.02 116.84) (xy 163.83 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b35ac2b-890b-4bbf-ae70-ac23253ed20e")
+	)
+	(wire
+		(pts
+			(xy 69.85 129.54) (xy 69.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6db5ce-ae08-4bcd-850f-909a2c32699a")
+	)
+	(wire
+		(pts
+			(xy 64.77 118.11) (xy 71.12 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e7ce0ff-4db6-4433-a8f5-d77f85b6eb00")
+	)
+	(wire
+		(pts
+			(xy 153.67 29.21) (xy 160.02 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f896bf5-1eab-4ac7-b2f1-cd743b23d210")
+	)
+	(wire
+		(pts
+			(xy 69.85 41.91) (xy 69.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc29271-77e9-49be-bbfa-d24ccea4d684")
+	)
+	(wire
+		(pts
+			(xy 247.65 81.28) (xy 247.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73cae16c-6ca9-45c1-8545-efd801b6da96")
+	)
+	(wire
+		(pts
+			(xy 242.57 69.85) (xy 248.92 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "760d88f9-e7ac-4884-a30a-3b84757a523a")
+	)
+	(wire
+		(pts
+			(xy 64.77 34.29) (xy 71.12 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772ed3f7-23d8-4265-98fa-05002168d160")
+	)
+	(wire
+		(pts
+			(xy 171.45 29.21) (xy 179.07 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78420d6b-5eba-475a-b6d5-12d315ee8bb6")
+	)
+	(wire
+		(pts
+			(xy 64.77 128.27) (xy 69.85 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a49a997-e6c0-4200-beeb-00012fdad776")
+	)
+	(wire
+		(pts
+			(xy 242.57 77.47) (xy 247.65 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4b67f9-fc22-4153-bf1c-c302a712650e")
+	)
+	(wire
+		(pts
+			(xy 160.02 34.29) (xy 160.02 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8336aae0-18d9-4a79-9bc0-21043f7776c3")
+	)
+	(wire
+		(pts
+			(xy 171.45 64.77) (xy 179.07 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83df5191-8eb3-40c9-83be-d94ca48ff163")
+	)
+	(wire
+		(pts
+			(xy 71.12 110.49) (xy 71.12 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8564a2c8-41b2-4eac-b8d1-4fff10283fc3")
+	)
+	(wire
+		(pts
+			(xy 248.92 26.67) (xy 248.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85877494-136a-4b17-b06e-2217d169b58c")
+	)
+	(wire
+		(pts
+			(xy 158.75 124.46) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "863a0ee0-85b7-46f4-aba0-19427472c392")
+	)
+	(wire
+		(pts
+			(xy 64.77 29.21) (xy 71.12 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8643562f-4391-4a82-80a0-0c08926ced1d")
+	)
+	(wire
+		(pts
+			(xy 158.75 81.28) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b00e84b-1bd4-4d23-ba54-ac0435a98fd6")
+	)
+	(wire
+		(pts
+			(xy 208.28 29.21) (xy 209.55 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2a9edb-dbde-4751-87bc-75aba78b1c43")
+	)
+	(wire
+		(pts
+			(xy 248.92 34.29) (xy 252.73 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7e7f94-9acb-4661-b3f0-2f286f1754e5")
+	)
+	(wire
+		(pts
+			(xy 64.77 113.03) (xy 71.12 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3a21d2-7c1f-4108-9b7d-f396f57356bc")
+	)
+	(wire
+		(pts
+			(xy 248.92 34.29) (xy 248.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9312acb9-21d2-48f1-b33e-2f5aad7ec496")
+	)
+	(wire
+		(pts
+			(xy 30.48 113.03) (xy 31.75 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94043229-3642-44f1-b13e-d8629e4152b9")
+	)
+	(wire
+		(pts
+			(xy 30.48 34.29) (xy 31.75 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981b0500-a980-408c-b456-a86260bfef4a")
+	)
+	(wire
+		(pts
+			(xy 90.17 148.59) (xy 90.17 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a142f15-53e0-4da7-8c84-12a87b5bd7d1")
+	)
+	(wire
+		(pts
+			(xy 208.28 34.29) (xy 209.55 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a36810f-493f-4fe0-bb75-01677bac5b5e")
+	)
+	(wire
+		(pts
+			(xy 160.02 109.22) (xy 160.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a67ff6b-6c0a-4302-b88c-33ad9d1ff378")
+	)
+	(wire
+		(pts
+			(xy 71.12 153.67) (xy 74.93 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fbf81e3-578c-423d-994f-d5ebcd1e5d3d")
+	)
+	(wire
+		(pts
+			(xy 119.38 34.29) (xy 120.65 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ea0454-b38e-47b5-8fc6-4d6133110c5b")
+	)
+	(wire
+		(pts
+			(xy 86.36 118.11) (xy 82.55 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ee6ce8-3f31-4b3f-85e7-761e88b9a224")
+	)
+	(wire
+		(pts
+			(xy 153.67 44.45) (xy 158.75 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4bc0852-0eda-40a1-beb4-5e6da9cc405d")
+	)
+	(wire
+		(pts
+			(xy 247.65 45.72) (xy 247.65 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a91c2933-10cb-4a5c-ac99-717f85c9ceca")
+	)
+	(wire
+		(pts
+			(xy 179.07 111.76) (xy 179.07 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93c1690-7dc5-4419-8088-044c60fa58e3")
+	)
+	(wire
+		(pts
+			(xy 153.67 69.85) (xy 160.02 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a995aa33-0064-4427-9f6b-382a373c66d1")
+	)
+	(wire
+		(pts
+			(xy 267.97 29.21) (xy 267.97 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa48ca24-3ee8-45f2-87c4-457edaa38bf4")
+	)
+	(wire
+		(pts
+			(xy 86.36 69.85) (xy 82.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac96b2c6-7991-433c-b8d5-eeb125dea317")
+	)
+	(wire
+		(pts
+			(xy 158.75 77.47) (xy 158.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acabcbed-c490-492f-b9aa-31dbe8f0f9c9")
+	)
+	(wire
+		(pts
+			(xy 71.12 26.67) (xy 71.12 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad46d17a-d684-4795-8e60-70089ee0fc57")
+	)
+	(wire
+		(pts
+			(xy 247.65 77.47) (xy 247.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afbd8c9a-22f6-44c0-a8bb-0c26a84b19fb")
+	)
+	(wire
+		(pts
+			(xy 160.02 69.85) (xy 163.83 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ff1149-cac8-4e84-8f47-6b909c6ea199")
+	)
+	(wire
+		(pts
+			(xy 199.39 85.09) (xy 199.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38aaecd-e871-4d4e-9908-35725c66c9a6")
+	)
+	(wire
+		(pts
+			(xy 71.12 118.11) (xy 74.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3fab561-03a6-424a-9cef-52226d05306f")
+	)
+	(wire
+		(pts
+			(xy 248.92 64.77) (xy 252.73 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47c0b2a-c033-4169-84a2-0668e4910251")
+	)
+	(wire
+		(pts
+			(xy 119.38 29.21) (xy 120.65 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b75c7603-6c97-4041-af4f-ae01bc4ba373")
+	)
+	(wire
+		(pts
+			(xy 153.67 111.76) (xy 160.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9219cab-8e9e-4097-bbed-a80537ac863b")
+	)
+	(wire
+		(pts
+			(xy 158.75 41.91) (xy 158.75 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba4eafee-77c7-439a-a30b-2c7a20f4908c")
+	)
+	(wire
+		(pts
+			(xy 64.77 148.59) (xy 71.12 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef2c6cd-f4ad-476a-b0c6-eed3ed149cb2")
+	)
+	(wire
+		(pts
+			(xy 64.77 69.85) (xy 71.12 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02b6717-e33b-4d87-938f-ec7444853f75")
+	)
+	(wire
+		(pts
+			(xy 153.67 127) (xy 158.75 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21fee78-0a6d-44b3-912f-61551baab9c2")
+	)
+	(wire
+		(pts
+			(xy 119.38 111.76) (xy 120.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2d26e2d-d0c4-4a36-a3e0-c384183bd4e2")
+	)
+	(wire
+		(pts
+			(xy 110.49 74.93) (xy 110.49 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c465e2f0-db7f-4860-b373-81ee3b911479")
+	)
+	(wire
+		(pts
+			(xy 160.02 29.21) (xy 163.83 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c563fd8a-7f39-4258-a8d1-6d0e466a1045")
+	)
+	(wire
+		(pts
+			(xy 86.36 36.83) (xy 86.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6372f8b-893b-4882-947b-43c6580e76eb")
+	)
+	(wire
+		(pts
+			(xy 86.36 156.21) (xy 86.36 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c73fdc8a-bd9b-46cd-a78f-3f8d8b422946")
+	)
+	(wire
+		(pts
+			(xy 242.57 41.91) (xy 247.65 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96aac6b-5343-4406-9ff7-b0fa86e1478e")
+	)
+	(wire
+		(pts
+			(xy 71.12 64.77) (xy 74.93 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0f443d-d585-4763-b37e-d1a09fbd63d7")
+	)
+	(wire
+		(pts
+			(xy 242.57 80.01) (xy 247.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09bfd24-49b7-4c7e-8876-c50098c9a95e")
+	)
+	(wire
+		(pts
+			(xy 90.17 29.21) (xy 90.17 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d104afa5-e373-4b7b-89e1-e574f57a2ccb")
+	)
+	(wire
+		(pts
+			(xy 71.12 153.67) (xy 71.12 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4f1f8fd-7b84-45cd-aecf-814dd3b4289f")
+	)
+	(wire
+		(pts
+			(xy 30.48 69.85) (xy 31.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d68592bb-08d1-4daa-8d48-4c14a3c2aac9")
+	)
+	(wire
+		(pts
+			(xy 30.48 153.67) (xy 31.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c77b35-a0a6-440e-802d-e5ca194bda0c")
+	)
+	(wire
+		(pts
+			(xy 119.38 116.84) (xy 120.65 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9669bc7-b0f5-4785-8482-ad70c5e8e485")
+	)
+	(wire
+		(pts
+			(xy 160.02 62.23) (xy 160.02 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f08956-9201-485e-83dd-0171708d2082")
+	)
+	(wire
+		(pts
+			(xy 31.75 74.93) (xy 21.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db702b81-a101-4c40-9c6f-79212cc54ec9")
+	)
+	(wire
+		(pts
+			(xy 110.49 85.09) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd77b70-6f4b-471a-8075-e97928859ff9")
+	)
+	(wire
+		(pts
+			(xy 71.12 69.85) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc3e7c4f-ad17-4572-adfd-d502f17de0e5")
+	)
+	(wire
+		(pts
+			(xy 64.77 41.91) (xy 69.85 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfbc3628-e3d5-462e-9d4e-fe1962f52aa1")
+	)
+	(wire
+		(pts
+			(xy 247.65 41.91) (xy 247.65 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1c8ba18-0a5a-4316-93c5-61d7a8a5047b")
+	)
+	(wire
+		(pts
+			(xy 153.67 34.29) (xy 160.02 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ff8f89-e3d2-4f15-b7ab-d527a9618a6c")
+	)
+	(wire
+		(pts
+			(xy 248.92 62.23) (xy 248.92 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3b50aca-91ba-4fbc-bed5-c3c834cb3fcf")
+	)
+	(wire
+		(pts
+			(xy 71.12 118.11) (xy 71.12 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4900363-5ca3-430c-8c49-41c4b51c7155")
+	)
+	(wire
+		(pts
+			(xy 71.12 29.21) (xy 74.93 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5864aab-d59d-437d-820e-8af4a0dd48a9")
+	)
+	(wire
+		(pts
+			(xy 71.12 34.29) (xy 71.12 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63cbab8-0cb1-40b8-97fa-bba219d919ee")
+	)
+	(wire
+		(pts
+			(xy 120.65 74.93) (xy 110.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e93920b9-ebc8-44c5-8c94-813e7cbbf353")
+	)
+	(wire
+		(pts
+			(xy 69.85 165.1) (xy 69.85 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea77976f-cf07-458c-aedd-69c0570c9a91")
+	)
+	(wire
+		(pts
+			(xy 153.67 116.84) (xy 160.02 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb933baa-d9d5-4827-965f-6848559215bb")
+	)
+	(wire
+		(pts
+			(xy 90.17 64.77) (xy 90.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef23d5cb-697d-4ce4-b94b-6f6d98d24814")
+	)
+	(wire
+		(pts
+			(xy 208.28 69.85) (xy 209.55 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2a2f44-d0dd-4ee7-a225-77954a8d43d3")
+	)
+	(wire
+		(pts
+			(xy 175.26 34.29) (xy 171.45 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f091532a-8a37-429d-aa73-22dd1cc768f2")
+	)
+	(wire
+		(pts
+			(xy 64.77 77.47) (xy 69.85 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3055bb8-8dbf-4fee-9835-6d93235a9844")
+	)
+	(wire
+		(pts
+			(xy 71.12 34.29) (xy 74.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3886af9-d134-438d-963a-9b097a04e103")
+	)
+	(wire
+		(pts
+			(xy 179.07 29.21) (xy 179.07 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f478a07e-0502-475f-8ec3-de159e12cb94")
+	)
+	(wire
+		(pts
+			(xy 64.77 44.45) (xy 69.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4880073-35b6-4232-9776-32e1285769bf")
+	)
+	(wire
+		(pts
+			(xy 90.17 113.03) (xy 90.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f1a9c3-d176-4f3a-b9ec-62cdbccbd893")
+	)
+	(wire
+		(pts
+			(xy 82.55 29.21) (xy 90.17 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb5dd7ad-81ff-44b4-8be1-addb47a7244f")
+	)
+	(wire
+		(pts
+			(xy 64.77 153.67) (xy 71.12 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba8208a-7997-42c2-80ce-9cbb647f8bac")
+	)
+	(wire
+		(pts
+			(xy 153.67 77.47) (xy 158.75 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febd22de-6074-4df0-b35e-8b3c7443cb1c")
+	)
+	(global_label "SDA4"
+		(shape bidirectional)
+		(at 119.38 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "081f7d53-fe23-4083-a796-4467f7d1dec8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5059 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL3"
+		(shape input)
+		(at 30.48 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27ae3e33-0058-405a-bcc9-66c3d21ea586")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.7777 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL4"
+		(shape input)
+		(at 119.38 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4bed38b8-8487-4bac-a201-1b4e7cdfdb7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.6777 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA1"
+		(shape bidirectional)
+		(at 119.38 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c5f2ebb-3b0f-4a5f-9add-f5371981c27a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5059 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL1"
+		(shape input)
+		(at 119.38 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ceb9af3-d1ae-433f-8338-4460621ec268")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.6777 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA3"
+		(shape bidirectional)
+		(at 30.48 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53937d1d-56a1-4a5a-ba76-2885d493e5cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.6059 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA3"
+		(shape bidirectional)
+		(at 30.48 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61455e2a-8444-4cee-a5dc-fa9412fde50a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.6059 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL3"
+		(shape input)
+		(at 30.48 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "687833d3-a6b7-407a-8b39-ea6639d130b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.7777 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA0"
+		(shape bidirectional)
+		(at 30.48 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9425009f-eb5e-4121-9e3b-3e1dd34939e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.6059 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL2"
+		(shape input)
+		(at 208.28 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b6984cb-2e6b-40dd-a71c-0e2b96ecffe0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.5777 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA0"
+		(shape bidirectional)
+		(at 30.48 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab3d9be0-9790-4695-a8f3-21eb0c81a201")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.6059 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA2"
+		(shape bidirectional)
+		(at 208.28 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b62e3ecb-c695-49b1-ba2f-d9d85d617a90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.4059 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL2"
+		(shape input)
+		(at 208.28 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc9a0dd1-b380-4229-a4e8-01a4ee615262")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.5777 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL0"
+		(shape input)
+		(at 30.48 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4a00dd4-3252-4819-ba66-ce88cfd7829a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.7777 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL1"
+		(shape input)
+		(at 119.38 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c6ab8189-b3d8-4fc7-908b-e0cea972a0ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.6777 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL0"
+		(shape input)
+		(at 30.48 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8c9d0ad-5227-4854-bb5c-03a98afd4cf2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.7777 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA1"
+		(shape bidirectional)
+		(at 119.38 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebc3aff9-786b-4502-9b1b-11457387b224")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.5059 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA2"
+		(shape bidirectional)
+		(at 208.28 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8447883-8b76-4539-ae25-135e76f76062")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.4059 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "006152c4-59d8-4041-acbb-9c9c17f9932e")
+		(property "Reference" "R19"
+			(at 113.03 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 113.03 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 108.712 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b9c8b25-9c82-454f-be02-804ad206c80d")
+		)
+		(pin "1"
+			(uuid "90070855-be88-4b13-bdb6-bc0bf35f7a20")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 71.12 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "089c7599-8d2c-49fc-83a1-b24bd172f1af")
+		(property "Reference" "#PWR089"
+			(at 71.12 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 71.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 71.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e86cdb1-ac24-469f-aff5-ca180d824300")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ba4bc2c-eab7-47d0-bf93-e176cad65c77")
+		(property "Reference" "#PWR068"
+			(at 86.36 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba2b6d1d-8ab1-4f0e-8aeb-d00064c10852")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ccb740e-133d-49ef-a2f5-9059256942b3")
+		(property "Reference" "C23"
+			(at 167.64 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.64 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 171.45 28.2448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f366ebc9-14e9-42b9-949e-365ea4d3053b")
+		)
+		(pin "2"
+			(uuid "917dcacd-0e72-4060-b621-35c6e48cfdf3")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d2cfaf6-0da3-45a7-8439-5cfe0979177a")
+		(property "Reference" "#PWR073"
+			(at 247.65 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f47a3f53-9994-4b8d-aec4-1b0cd91ecf1b")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10db5502-8ed5-4397-a1db-82769ce8e72d")
+		(property "Reference" "#PWR082"
+			(at 264.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a85770d2-1d92-404f-8e8e-efdd5767951d")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "windsensor:DPS368")
+		(at 36.83 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20a888ca-5ccd-4a0b-a608-33e3d96b44ea")
+		(property "Reference" "U4"
+			(at 48.26 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "DPS368"
+			(at 48.26 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "windsensor:LGA8S145X65P2X4_200X250X110-V"
+			(at 36.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Barometric Pressure Sensor for Portable Devices"
+			(at 49.53 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "c21e5a97-c4e4-4583-9a57-a03a60bf2c40")
+		)
+		(pin "4"
+			(uuid "a89fe70a-1b52-4474-8b13-1d43064afa13")
+		)
+		(pin "3"
+			(uuid "293ec8f9-3674-47e8-9efd-ae71745fd206")
+		)
+		(pin "6"
+			(uuid "4253e5b8-fe0f-4a67-b47a-78efdc3832e6")
+		)
+		(pin "5"
+			(uuid "8e93b936-b049-4e1c-a520-52949cbf74d7")
+		)
+		(pin "7"
+			(uuid "0619090c-a378-4dba-8a08-8fc85db39274")
+		)
+		(pin "2"
+			(uuid "41f58fab-22fd-440b-85dc-b5765b6b3914")
+		)
+		(pin "1"
+			(uuid "abdac4b0-906b-49ac-94aa-d8341792b24c")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "232f9579-9c95-486e-9e6b-98bae686cdcd")
+		(property "Reference" "R20"
+			(at 201.93 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 201.93 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 197.612 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c063dfd-9571-4680-9c4c-5b992e9beb3a")
+		)
+		(pin "1"
+			(uuid "96d8d9ea-c3e5-4e50-bc16-13115c89e412")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 71.12 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f6891a3-70d7-46ae-90ec-3d895fa54f95")
+		(property "Reference" "#PWR097"
+			(at 71.12 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 71.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae7fc455-1d81-4f07-a898-8dc6d78b8203")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "366e6c87-b74b-41dc-8638-8452e813e00e")
+		(property "Reference" "#PWR079"
+			(at 267.97 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2875c07-bb5b-4668-a012-0e7be3971869")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "windsensor:DPS368")
+		(at 214.63 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "372de9bd-d34e-4514-bbe7-3801fca62041")
+		(property "Reference" "U9"
+			(at 226.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "DPS368"
+			(at 226.06 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "windsensor:LGA8S145X65P2X4_200X250X110-V"
+			(at 214.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Barometric Pressure Sensor for Portable Devices"
+			(at 227.33 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "dce1a8a4-164a-4285-9bf4-f5a3a4d38a81")
+		)
+		(pin "4"
+			(uuid "aa1d0c79-6f23-4f10-9776-62a6171a88b0")
+		)
+		(pin "3"
+			(uuid "69b8df64-ee56-44cf-be85-f08c9f922b7b")
+		)
+		(pin "6"
+			(uuid "2059278a-6fe5-4193-886a-ac074df5c797")
+		)
+		(pin "5"
+			(uuid "7624a417-c288-40d5-9f9a-cfc0411565fa")
+		)
+		(pin "7"
+			(uuid "aea61ebc-2e97-416c-a0c1-12333d71de86")
+		)
+		(pin "2"
+			(uuid "4b42a45d-7f4c-487e-95cc-e57c58e784ea")
+		)
+		(pin "1"
+			(uuid "bad9169f-0565-4e43-a1c5-f26587b72ce1")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 256.54 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "384ccd28-db80-49c1-a987-a61a908e3e7b")
+		(property "Reference" "C24"
+			(at 256.54 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 256.54 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 260.35 28.2448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 256.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7efd10f6-8a8e-46b3-b3e8-6fdb48c118b4")
+		)
+		(pin "2"
+			(uuid "3101b1e8-347c-4344-ac03-c9c78e363041")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bb3457b-e42d-48a1-a529-e435f76146c9")
+		(property "Reference" "C36"
+			(at 78.486 121.412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.994 123.444 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 82.55 117.1448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2032e7ed-020d-4556-8230-cc509eb4f72c")
+		)
+		(pin "2"
+			(uuid "d6d0a23c-d3b5-45d9-975e-cd06db879cd7")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d52044e-74d6-456b-9c52-26acf616f2d0")
+		(property "Reference" "C28"
+			(at 78.74 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.74 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 82.55 63.8048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6c10224-a9b7-4986-ae58-534e37b9ee64")
+		)
+		(pin "2"
+			(uuid "db0c2a79-0c41-48e6-bc1f-f70ba3b50a7a")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "405f2e45-7b16-4785-8fb0-dcb353755c5e")
+		(property "Reference" "#PWR095"
+			(at 69.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f7e9147-40d9-4786-ac6b-9432df79d513")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 248.92 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40a8664c-3a38-4e60-8b85-2bdfc88c52ed")
+		(property "Reference" "#PWR076"
+			(at 248.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 248.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 248.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f7d4007-084f-4f56-96be-39b3b07f191a")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40aec09a-a074-48fe-bbe1-fd2c4331113f")
+		(property "Reference" "C32"
+			(at 167.386 73.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.894 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 171.45 68.8848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8cf0290-8a5e-42aa-acb9-bbeb1f977570")
+		)
+		(pin "2"
+			(uuid "10575dcb-f751-40b1-b118-e77324398c08")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42241639-6559-46bc-893d-c3d90d16f718")
+		(property "Reference" "#PWR088"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d897b398-7f31-44a2-aa46-5d303852cb85")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ac8292d-0a18-4f4b-acdf-e176ed2f65cb")
+		(property "Reference" "#PWR099"
+			(at 86.36 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7db7732a-9a97-4a6f-8148-eecc3f57cfe0")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b45b5ee-5685-4469-aede-ef5e6cf7ac14")
+		(property "Reference" "C29"
+			(at 167.64 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.64 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 171.45 63.8048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e181090-9546-4647-9dcf-e2e731978952")
+		)
+		(pin "2"
+			(uuid "c372be22-dc72-44b9-ad0a-026c877e759b")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c99c956-741c-40b2-a1ca-b18ef808fbfc")
+		(property "Reference" "#PWR067"
+			(at 267.97 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c724ecf3-1a2b-4fa7-9b74-69beb8895211")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f0ee2fc-8553-4527-88f1-515ce7b9ddfc")
+		(property "Reference" "R18"
+			(at 24.13 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 24.13 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 19.812 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "db144e10-787d-46b4-ab9f-a4a1fea94e8d")
+		)
+		(pin "1"
+			(uuid "52263909-aadd-4cb4-b671-195c4a30bbf8")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ff1314f-d7ad-4b5d-a998-322625f15937")
+		(property "Reference" "C26"
+			(at 167.386 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.894 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 171.45 33.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5159210-e994-418d-b95f-03bde9c72e98")
+		)
+		(pin "2"
+			(uuid "5fa7a3d5-84ac-48ad-ba64-7f62a04247e4")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63e51991-f17d-4586-b7f8-f2c93a6640eb")
+		(property "Reference" "#PWR086"
+			(at 21.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0667f667-5102-4329-94be-a0492cdfe3b6")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "windsensor:DPS368")
+		(at 125.73 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7130a39d-425f-4520-a80e-072d9b368ff9")
+		(property "Reference" "U5"
+			(at 137.16 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "DPS368"
+			(at 137.16 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "windsensor:LGA8S145X65P2X4_200X250X110-V"
+			(at 125.73 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Barometric Pressure Sensor for Portable Devices"
+			(at 138.43 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "62252f4a-138b-460f-aa9c-d0a825eb4272")
+		)
+		(pin "4"
+			(uuid "884b3f0c-bf16-4a9f-b70c-8d8d3656de52")
+		)
+		(pin "3"
+			(uuid "0b40db51-06e9-419c-a80c-10f2f9999521")
+		)
+		(pin "6"
+			(uuid "ab58b234-f801-4845-94a8-60b96401fc1d")
+		)
+		(pin "5"
+			(uuid "ee4f8a3c-2a10-4539-9b2f-1183d2599483")
+		)
+		(pin "7"
+			(uuid "09eaf54b-9f7d-40d4-9a4e-8fb887144f6d")
+		)
+		(pin "2"
+			(uuid "96ea415d-dc9e-485d-9956-26a0bf3715a1")
+		)
+		(pin "1"
+			(uuid "25d8d56d-6b28-40c5-9c15-cb2d96fe9251")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75c01588-4dd7-4e8d-9a00-1d2e4fd7b927")
+		(property "Reference" "#PWR098"
+			(at 90.17 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "267c5dce-7e64-4514-a7a0-580a94b180dc")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 256.54 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "848d5ab5-f87c-482c-a5ee-48f1949866b0")
+		(property "Reference" "C30"
+			(at 256.54 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 256.54 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 260.35 63.8048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 256.54 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c85a8ca3-8496-4d1f-9afc-d98abc58c571")
+		)
+		(pin "2"
+			(uuid "767127ad-b1a3-4318-a712-ea27180cbcd1")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "857a63d6-13d0-43c8-b041-3c5b59d71700")
+		(property "Reference" "#PWR087"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8acb1c07-e7b8-47ce-a842-255019988405")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "windsensor:DPS368")
+		(at 36.83 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85c2878f-2e3a-4e39-a2c1-041422382d74")
+		(property "Reference" "U12"
+			(at 48.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "DPS368"
+			(at 48.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "windsensor:LGA8S145X65P2X4_200X250X110-V"
+			(at 36.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Barometric Pressure Sensor for Portable Devices"
+			(at 49.53 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "defa0687-8fa0-4f17-939e-cb854261b076")
+		)
+		(pin "4"
+			(uuid "0b025969-b532-4c18-a93d-0cb251c33fe0")
+		)
+		(pin "3"
+			(uuid "2de9229b-a983-492c-936c-5a568bcd2336")
+		)
+		(pin "6"
+			(uuid "1974edc2-b8ff-447c-b987-7ff7f5fb1a66")
+		)
+		(pin "5"
+			(uuid "7f235456-4929-4323-b0dd-cb065ef277d6")
+		)
+		(pin "7"
+			(uuid "7712f4a5-6a6c-47c6-a68f-6a97746fd5fe")
+		)
+		(pin "2"
+			(uuid "df7e50a0-3eda-49ab-af75-a3f4ba71da19")
+		)
+		(pin "1"
+			(uuid "9ab7e68b-ac48-407f-b7c7-ee9970345b25")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8842bf9d-5f6c-4545-88b9-a6e282e426e7")
+		(property "Reference" "#PWR092"
+			(at 179.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e951277e-0a1f-44ca-965b-d2079328721d")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89bc4674-9cde-49fe-ba0e-86315ba63676")
+		(property "Reference" "#PWR081"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f296cbb-df17-43c1-ae46-763f72b333a7")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "windsensor:DPS368")
+		(at 36.83 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ef9f45b-00f4-4dff-9255-6778d27e5d3f")
+		(property "Reference" "U10"
+			(at 48.26 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "DPS368"
+			(at 48.26 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "windsensor:LGA8S145X65P2X4_200X250X110-V"
+			(at 36.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Barometric Pressure Sensor for Portable Devices"
+			(at 49.53 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "fc8063b2-7d00-4346-b2c9-4f01ca0a83cc")
+		)
+		(pin "4"
+			(uuid "8113b004-23ca-4c06-b7f5-de4f447f4deb")
+		)
+		(pin "3"
+			(uuid "7e12f661-5e6b-4a27-9e7a-0b4eada3e1f2")
+		)
+		(pin "6"
+			(uuid "d0b20ef5-d396-4821-a8f5-0870d6ce9f18")
+		)
+		(pin "5"
+			(uuid "fdb5c0ac-2803-4284-89d4-b2144a750412")
+		)
+		(pin "7"
+			(uuid "0448c4e7-761b-464d-b849-2f9c948b57ad")
+		)
+		(pin "2"
+			(uuid "62412f1f-f863-482f-ba1d-20940c4240b9")
+		)
+		(pin "1"
+			(uuid "b2096e59-ac5f-48eb-949a-158e4c86ac63")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "U10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90b7a7c4-71ca-472b-b894-c1ef368cc12f")
+		(property "Reference" "#PWR071"
+			(at 69.85 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d389e3c-e0ff-4a36-92a7-9574b8802433")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90fae831-1c2f-4e27-af59-d4ae8a93580d")
+		(property "Reference" "#PWR077"
+			(at 90.17 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91aee86c-9ef3-4ceb-b311-5a5878712092")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "windsensor:DPS368")
+		(at 36.83 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92bf2bc3-b03e-459c-aa23-a4c7e6415d20")
+		(property "Reference" "U7"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "DPS368"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "windsensor:LGA8S145X65P2X4_200X250X110-V"
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Barometric Pressure Sensor for Portable Devices"
+			(at 49.53 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "5c58379f-1413-4321-87ec-0e1dc5946554")
+		)
+		(pin "4"
+			(uuid "463ecd7f-98a2-48c1-92e6-d2d6724fc211")
+		)
+		(pin "3"
+			(uuid "a8deb78c-18d7-4e23-917f-f0195521372f")
+		)
+		(pin "6"
+			(uuid "8bc0f5ce-0bbb-41e6-ae55-8ace073be016")
+		)
+		(pin "5"
+			(uuid "6e7773da-b673-4da1-be61-d06f2c4c5949")
+		)
+		(pin "7"
+			(uuid "03da6641-b089-4175-958a-397c1590ea66")
+		)
+		(pin "2"
+			(uuid "56bab87c-acdc-4796-9b33-7ce94770c4d1")
+		)
+		(pin "1"
+			(uuid "0e51914c-c92d-47d1-8084-c3efafeae3e1")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 160.02 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "951fda34-345a-480a-b1d8-b58eb3797aef")
+		(property "Reference" "#PWR090"
+			(at 160.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 160.02 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 160.02 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfc2f122-260f-424b-b9e4-d16ecd69359e")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99ae7491-570c-4f08-95d4-df5255529d81")
+		(property "Reference" "C22"
+			(at 78.74 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.74 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 82.55 28.2448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f845d51-7ed5-4271-9009-d837ff513bdb")
+		)
+		(pin "2"
+			(uuid "7f3d7b10-4711-4a39-9184-c25888e0e83f")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 256.54 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cbc0cb8-c085-4b45-8e78-e6f706e6324c")
+		(property "Reference" "C33"
+			(at 256.286 73.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 256.794 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 260.35 68.8848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 256.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b32a810a-fd88-4294-afbb-6456c750930d")
+		)
+		(pin "2"
+			(uuid "4af3ff05-df55-416c-923d-6762676d074c")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a131c7ba-d75f-4fd3-a81d-0e70076fc2df")
+		(property "Reference" "#PWR096"
+			(at 158.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6930df02-f54c-4bbb-8b9b-d2fe3764a211")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1a4792f-5f0d-444c-9f45-9ef35d133c1a")
+		(property "Reference" "C37"
+			(at 167.386 120.142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.894 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 171.45 115.8748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59f62c52-2a15-45db-b13b-05d498e47517")
+		)
+		(pin "2"
+			(uuid "dbe30b42-2da8-4e23-9bd4-009f85e5e7c5")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4f50151-badd-4a1a-a811-73a38180a197")
+		(property "Reference" "C38"
+			(at 78.74 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.74 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 82.55 147.6248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4dd92597-ebbf-49c6-bd68-b57a17c0b227")
+		)
+		(pin "2"
+			(uuid "62d71a5b-2f82-495c-8f57-2ebaa2bbe8d5")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 160.02 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa8da05b-4bbc-4451-8d5b-61c609f50738")
+		(property "Reference" "#PWR063"
+			(at 160.02 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 160.02 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 160.02 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3911551f-91de-4366-b04a-a9ca7d11b77f")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acfefeb7-024c-4d72-83f3-afa4acfc0358")
+		(property "Reference" "#PWR0100"
+			(at 69.85 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d3e9089-2126-4919-84f6-89fe8a74e2e4")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2f0bf54-bac1-4535-8838-25e08f400314")
+		(property "Reference" "#PWR091"
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "312a0aa8-d865-4df0-a7d3-c34e06df79af")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b95d2675-8fba-496a-83f3-36cf930511b7")
+		(property "Reference" "#PWR093"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65c4cb0a-cd85-4269-a545-9dc67f898d17")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 247.65 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbbf6a72-b60f-4510-a5f0-77d17b284373")
+		(property "Reference" "#PWR085"
+			(at 247.65 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 247.65 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5f0e6ee-87be-4c70-8227-a4a6125174be")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 21.59 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcf3f042-4dd6-4903-b176-b85c3f77792a")
+		(property "Reference" "R21"
+			(at 24.13 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 24.13 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 19.812 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 21.59 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47fdc08f-8fd9-4399-b83e-28e05697dd09")
+		)
+		(pin "1"
+			(uuid "c3361e25-ecdf-4baa-824f-b36a0c070195")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 71.12 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd45eb15-97ec-4c18-a943-1cac9a728ea1")
+		(property "Reference" "#PWR062"
+			(at 71.12 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 71.12 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 71.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6abb944c-b1ae-4b89-940c-44731e0d49ea")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd5b56fa-5b83-4f98-a427-871a9ece8160")
+		(property "Reference" "#PWR066"
+			(at 179.07 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f62d8487-5436-4abb-a885-5d3d144538ce")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be1d1497-fdb7-4d14-afe4-8f6119a57e6d")
+		(property "Reference" "#PWR070"
+			(at 264.16 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84874fb6-c3cd-47f9-a25e-7a6651d2dd77")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0c55102-5c5a-448e-8a7e-1c2144cc300b")
+		(property "Reference" "C25"
+			(at 78.486 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.994 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 82.55 33.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "704c2ad5-1319-4ec5-a6d4-4a49b4652b57")
+		)
+		(pin "2"
+			(uuid "42a301c1-99b5-4e1d-8e9e-b7c404927010")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "windsensor:DPS368")
+		(at 125.73 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd0f8b05-ec70-4516-8908-2d1ddf1eb9c0")
+		(property "Reference" "U11"
+			(at 137.16 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "DPS368"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "windsensor:LGA8S145X65P2X4_200X250X110-V"
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Barometric Pressure Sensor for Portable Devices"
+			(at 138.43 103.886 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "657e45e4-e224-4975-9250-6e25979b8362")
+		)
+		(pin "4"
+			(uuid "fcf01e43-ba92-47d0-b4e2-50216ea88a4d")
+		)
+		(pin "3"
+			(uuid "5bb20ada-1eb1-464d-8b62-e3d5a4a9a688")
+		)
+		(pin "6"
+			(uuid "3283a015-7234-4aff-956f-a1ae45e25794")
+		)
+		(pin "5"
+			(uuid "47b44a2d-4a58-4e14-bbe9-c18f2c98306e")
+		)
+		(pin "7"
+			(uuid "7b759713-b8b1-468b-b2c8-fc0f6b5a7fd9")
+		)
+		(pin "2"
+			(uuid "7fa74295-7c4f-413a-b20f-610caef6573d")
+		)
+		(pin "1"
+			(uuid "a362f6cd-066f-41e6-a0e7-32d6c01bb019")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdbacc50-8852-43c1-a51a-4d34a0b022ac")
+		(property "Reference" "#PWR072"
+			(at 158.75 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71bda559-4cac-4eec-8588-640444704c6e")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf5a8c81-306c-46f9-a411-5b68bcbf0695")
+		(property "Reference" "#PWR094"
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b22d64e-ed38-45c7-a4cd-9f7f81d581cf")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1cf522d-b214-4cf3-90be-cf86d7ab747f")
+		(property "Reference" "#PWR084"
+			(at 158.75 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0a8f15c-7cc3-4a7d-8365-9ceea02c3f75")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d619ae31-a619-4be9-9308-646a2edaa9d4")
+		(property "Reference" "C35"
+			(at 167.64 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 167.64 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 171.45 110.7948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0078454f-3c59-4bc5-8a7f-62141e9ae0a1")
+		)
+		(pin "2"
+			(uuid "be95f046-7555-4c27-a5ce-69836a553e5c")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d74ae4f8-c9cf-42d5-a78e-c9cc1b60ec49")
+		(property "Reference" "C31"
+			(at 78.486 73.152 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.994 75.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 82.55 68.8848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23ec8121-63e7-4f5b-b82d-0bbd32c60d40")
+		)
+		(pin "2"
+			(uuid "aa7c8c7b-72ea-424a-95c6-a739ff8bf387")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 160.02 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8a30e48-d47d-4b4c-87c4-cb7bf58b9fc4")
+		(property "Reference" "#PWR075"
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 160.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a01fe92c-03f4-4bc0-a1a3-f2b82c5f0bed")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "windsensor:DPS368")
+		(at 125.73 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db46c25b-961d-4b9e-b134-a91d7b51eb22")
+		(property "Reference" "U8"
+			(at 137.16 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "DPS368"
+			(at 137.16 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "windsensor:LGA8S145X65P2X4_200X250X110-V"
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Barometric Pressure Sensor for Portable Devices"
+			(at 138.43 56.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "3ab6ba17-b638-418c-9e67-59c7ba3d126d")
+		)
+		(pin "4"
+			(uuid "d7b6f6c8-4a65-4aea-a51c-ed6cd67c8f08")
+		)
+		(pin "3"
+			(uuid "c40a86fa-8569-4955-9090-e953d1ec0a31")
+		)
+		(pin "6"
+			(uuid "b991f5cb-9b7c-473e-8ffa-c8bbe296aa9e")
+		)
+		(pin "5"
+			(uuid "1093922d-f292-4683-94ce-4c469333fabd")
+		)
+		(pin "7"
+			(uuid "9778c640-3fa8-4a7a-abba-385f865d7a59")
+		)
+		(pin "2"
+			(uuid "9d0e1514-f4ec-4d6a-8757-f725fdb109fa")
+		)
+		(pin "1"
+			(uuid "f2ca9a5c-51c4-4ca2-af1e-65928a5b219d")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e019d5ca-6adf-4b84-adef-62d197a0a5fa")
+		(property "Reference" "#PWR069"
+			(at 175.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fac509a0-50cd-4388-a3f4-0b5511ef4acd")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 256.54 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e026b453-fade-46bf-a992-01a6d4be57fb")
+		(property "Reference" "C27"
+			(at 256.286 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 256.794 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 260.35 33.3248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 256.54 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "237fde26-147c-4259-a9c1-27351761dc31")
+		)
+		(pin "2"
+			(uuid "be9941c7-a713-4822-88ea-d2715821f119")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3434cb4-fada-47f1-99df-67040efc115a")
+		(property "Reference" "#PWR065"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bbd765e-2ba3-41bf-a56c-96ecaa336014")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e522ac3f-4489-4ed9-bd32-5edfa4fb36cb")
+		(property "Reference" "C34"
+			(at 78.74 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.74 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 82.55 112.0648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "472ad129-524f-4f6d-ab57-70070f90530c")
+		)
+		(pin "2"
+			(uuid "0bc887b7-873a-47f9-a65c-947cc054639f")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 78.74 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8103977-d142-4660-8d9c-7fefa930f6c1")
+		(property "Reference" "C39"
+			(at 78.486 156.972 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 78.994 159.004 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 82.55 152.7048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 78.74 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50983d76-bb25-44fc-8fb2-509cdce74bfe")
+		)
+		(pin "2"
+			(uuid "5f06cfe8-cbdd-4b0d-834a-7499d74f39c7")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "windsensor:DPS368")
+		(at 214.63 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8de5542-9574-461a-900f-37ccb596bf62")
+		(property "Reference" "U6"
+			(at 226.06 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Value" "DPS368"
+			(at 226.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+			)
+		)
+		(property "Footprint" "windsensor:LGA8S145X65P2X4_200X250X110-V"
+			(at 214.63 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Barometric Pressure Sensor for Portable Devices"
+			(at 227.33 21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d562bd3e-1d8e-4c5b-bcc1-a9348ce8e77b")
+		)
+		(pin "4"
+			(uuid "c9369022-49c0-4447-8aa1-07f2cf0c3f98")
+		)
+		(pin "3"
+			(uuid "64f830b7-d573-4597-8df6-df03919b6bc8")
+		)
+		(pin "6"
+			(uuid "668be7b2-557c-4ead-b6b2-45388a4cafd1")
+		)
+		(pin "5"
+			(uuid "735d82f1-ead6-4e15-9da4-e360e411d4f1")
+		)
+		(pin "7"
+			(uuid "324034b4-a8ab-4fcc-ad09-b7ed5485f9a9")
+		)
+		(pin "2"
+			(uuid "87048435-8c9a-4a47-bd5f-8c8b480ec8e5")
+		)
+		(pin "1"
+			(uuid "e9acb153-503d-4855-9144-741d12bf6c2b")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 71.12 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8fa677a-fbc5-4d01-af80-7cce3e3be7a0")
+		(property "Reference" "#PWR074"
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 71.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 71.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc999b92-e9c9-44b7-90dc-92a2309bcc3f")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea25ce47-b735-4928-8587-0278511d0707")
+		(property "Reference" "#PWR080"
+			(at 86.36 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0afa5bb-78a4-4681-b437-9bfbc78d463c")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 248.92 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ede4fc95-9bd1-4f8f-9eb3-37f4c8c8b71a")
+		(property "Reference" "#PWR064"
+			(at 248.92 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 248.92 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c346ad8d-0168-4242-aff9-3181ad6a791c")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 69.85 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef35a056-bf7d-4e6a-b432-ab05c1793f0f")
+		(property "Reference" "#PWR083"
+			(at 69.85 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3b56d2c-7f0a-4c64-a895-481bb1185d41")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 21.59 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f601db70-cade-4f50-ab5f-f13e771f568f")
+		(property "Reference" "#PWR0101"
+			(at 21.59 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e1a3add-0a55-43d3-804c-063b5945bb50")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb6c821e-1e2c-4ff8-9caa-02168997090d")
+		(property "Reference" "#PWR078"
+			(at 179.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "393f18fa-0b36-4851-acc5-3050df3e6291")
+		)
+		(instances
+			(project "windsensor"
+				(path "/00abe3cb-7857-4a8c-b621-b4776020a45a/c939d0f3-d063-42c1-a40b-56e48f7e9544"
+					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

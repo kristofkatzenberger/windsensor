@@ -1,0 +1,17 @@
+.DS_Store
+
+# KiCad temporary and backup files
+*.bak
+*.kicad_pcb-bak
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+fp-info-cache
+
+# KiCad lock files 
+*.lck
+
+# Rescue files
+*-rescue.lib
+*-rescue.dcm
