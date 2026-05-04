@@ -1,0 +1,259 @@
+:root {
+    --bg-1: #edf4df;
+    --bg-2: #d8e9f5;
+    --card: #f7fbff;
+    --ink: #1a2731;
+    --muted: #56707d;
+    --accent-blue: #00649c;
+    --accent-green: #8bb31d;
+    --danger: #b42318;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Space Grotesk", "IBM Plex Sans", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    color: var(--ink);
+    background:
+        radial-gradient(circle at 12% 20%, rgba(139, 179, 29, 0.28), transparent 42%),
+        radial-gradient(circle at 82% 75%, rgba(0, 100, 156, 0.23), transparent 40%),
+        linear-gradient(165deg, var(--bg-1), var(--bg-2));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px 20px 10px;
+}
+
+.panel {
+    width: 100%;
+}
+
+.panel {
+    background: linear-gradient(165deg, rgba(247, 251, 255, 0.96), rgba(255, 255, 255, 0.9));
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: 0 16px 40px rgba(13, 38, 76, 0.12);
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.btn,
+.crumb,
+.entry-link,
+.download,
+.delete {
+    border: 0;
+    border-radius: 10px;
+    padding: 10px 14px;
+    background: var(--accent-blue);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn.secondary {
+    background: #dce7f1;
+    color: var(--ink);
+}
+
+.crumb {
+    background: #dce7f1;
+    color: var(--ink);
+    padding: 6px 10px;
+}
+
+.crumb-sep {
+    color: #52606d;
+}
+
+#breadcrumbs {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+}
+
+#file-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.entry {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    gap: 12px;
+    align-items: center;
+    padding: 14px 16px;
+    border: 1px solid #d7e0ea;
+    border-radius: 14px;
+    background: #f9fbfd;
+}
+
+.entry-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1b2430;
+    overflow-wrap: anywhere;
+}
+
+.entry-link {
+    justify-self: start;
+    background: #dce7f1;
+    color: var(--ink);
+}
+
+.entry-link.folder {
+    background: #e8f1cf;
+    color: #324b06;
+}
+
+.entry-meta {
+    color: #52606d;
+    font-size: 0.95rem;
+}
+
+.download {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 42px;
+    padding: 0;
+    background: var(--accent-green);
+}
+
+.delete {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 42px;
+    padding: 0;
+    background: var(--danger);
+}
+
+.download svg,
+.delete svg {
+    width: 19px;
+    height: 19px;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+}
+
+.entry-actions {
+    display: inline-flex;
+    gap: 8px;
+    justify-self: end;
+}
+
+.entry-actions-spacer {
+    width: 96px;
+}
+
+.empty {
+    padding: 18px;
+    border: 1px dashed #bfd0e3;
+    border-radius: 14px;
+    text-align: center;
+    color: #52606d;
+    background: #f9fbfd;
+}
+
+.site-footer {
+    width: min(960px, 100%);
+    margin: 0 auto;
+    padding: 4px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-align: center;
+}
+
+.footer-logo {
+    width: min(340px, 70%);
+    max-height: 112px;
+    height: auto;
+    object-fit: contain;
+}
+
+.footer-note {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+@media (max-width: 640px) {
+    .topbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .topbar .actions {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .page {
+        padding: 14px 14px 8px;
+    }
+
+    .entry {
+        grid-template-columns: 1fr auto;
+    }
+
+    .entry-meta {
+        grid-column: 1 / 2;
+    }
+
+    .entry-actions,
+    .entry-actions-spacer {
+        grid-column: 2 / 3;
+        grid-row: 1 / 3;
+        align-self: center;
+    }
+
+    .site-footer {
+        padding: 4px 14px 16px;
+    }
+}

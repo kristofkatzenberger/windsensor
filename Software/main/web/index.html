@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wind Sensor</title>
+    <link rel="stylesheet" href="/static/main.css">
+</head>
+<body>
+    <main class="page">
+        <section class="hero-card">
+            <p class="eyebrow">Live Data</p>
+            <h1>Wind Sensor</h1>
+
+            <div class="readings">
+                <article class="reading-block">
+                    <p class="reading-label">Current Windspeed</p>
+                    <p id="speed-value" class="reading-value">--</p>
+                    <p id="speed-unit" class="reading-meta">m/s</p>
+                </article>
+                <article class="reading-block">
+                    <p class="reading-label">Relative Angle</p>
+                    <p id="angle-value" class="reading-value">--</p>
+                    <p class="reading-meta">deg</p>
+                </article>
+                <article class="reading-block">
+                    <p class="reading-label">Compass Angle</p>
+                    <p id="compass-value" class="reading-value">--</p>
+                    <p class="reading-meta">deg</p>
+                </article>
+            </div>
+
+            <div class="actions">
+                <button id="unit-toggle" class="unit-button" type="button">Unit: m/s</button>
+                <a class="files-link" href="/files">Open File Browser</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <img class="footer-logo" src="/static/fh_technikum_wien_logo.png" alt="FH Technikum Wien logo">
+        <p class="footer-note">2026 Wind Sensor Bachelor's Thesis by Kristof Katzenberger</p>
+        <p class="footer-note">Supervised by Ing. Christoph Böhm, MSc.</p>
+    </footer>
+
+    <script src="/static/main.js"></script>
+</body>
+</html>

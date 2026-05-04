@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SD Card Files</title>
+    <link rel="stylesheet" href="/static/files.css">
+</head>
+<body>
+    <div class="page">
+        <div class="panel">
+            <div class="topbar">
+                <div>
+                    <h1>SD Card Files</h1>
+                </div>
+                <div class="actions">
+                    <a class="btn secondary" href="/">Back</a>
+                    <button class="btn" type="button" onclick="loadFiles(currentPath)">Refresh</button>
+                </div>
+            </div>
+            <div id="breadcrumbs"></div>
+            <ul id="file-list"></ul>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <img class="footer-logo" src="/static/fh_technikum_wien_logo.png" alt="FH Technikum Wien logo">
+        <p class="footer-note">2026 Wind Sensor Bachelor's Thesis by Kristof Katzenberger</p>
+        <p class="footer-note">Supervised by Ing. Christoph Böhm, MSc.</p>
+    </footer>
+
+    <script src="/static/files.js"></script>
+</body>
+</html>

@@ -1,3 +1,14 @@
+# ESP-IDF Build directory
+build/
+
+# Python virtual environment 
+.espressif/
+managed_components/
+
+# VS Code metadata
+.comet/
+.vscode/
+*.log
 .DS_Store
 
 # KiCad temporary and backup files
